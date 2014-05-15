@@ -1,4 +1,5 @@
 # prime numbers
+# NOTE : needs better algorithm
 def isPrime(x):
 	c = 1
 	prime = True
@@ -15,7 +16,8 @@ def primeFactors(x):
 		q -= 1
 		#if q>=x : break
 		if isPrime(q) and x%q == 0:
-			print q; break
+			print q
+			break
 
 #primeFactors(123131313)
 print isPrime(121212121121)
